@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-aaswc') {
+orgs.newOrg('dt.aaswc', 'eclipse-aaswc') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
